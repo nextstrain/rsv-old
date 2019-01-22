@@ -1,0 +1,53 @@
+{
+  "title": "Real-time tracking of RSV evolution",
+  "color_options": {
+    "gt": {
+      "menuItem": "genotype",
+      "legendTitle": "Genotype",
+      "type": "discrete",
+      "key": "genotype"
+    },
+    "num_date": {
+      "menuItem": "date",
+      "legendTitle": "Sampling date",
+      "type": "continuous",
+      "key": "num_date"
+    },
+    "country": {
+      "key":"country",
+      "legendTitle":"Country",
+      "menuItem":"country",
+      "type":"discrete"
+    },
+    "region": {
+      "key":"region",
+      "legendTitle":"Region",
+      "menuItem":"region",
+      "type":"discrete"
+    },
+    "clade_membership": {
+      "key": "clade_membership",
+      "legendTitle": "RSV type",
+      "menuItem": "RSV type",
+      "type": "discrete"
+    }    
+  },
+  "geo": [
+    "country",
+    "region"
+  ],
+  "defaults": {
+    "mapTriplicate": true,
+    "colorBy": "region"
+  },  
+  "maintainer": [
+    "Trevor Bedford",
+    "http://bedford.io/team/trevor-bedford/"
+  ],
+  "filters": [
+  	"clade_membership",
+    "country",
+    "region",
+    "authors"
+  ]
+}
