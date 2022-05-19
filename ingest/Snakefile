@@ -1,0 +1,18 @@
+# USAGE: snakemake --snakefile Snakefile -c 2 pull_data
+
+from doctest import debug_script
+from snakemake.utils import min_version
+
+min_version("6.0")
+
+module vipr_workflow:
+    snakefile:
+        github("j23414/test_snakemake_6", path="workflow/vipr.smk", branch="main")
+
+
+use rule vipr_fasta from vipr_workflow as pull_data with:
+    output:
+        output="vipr_download.fasta",
+    params:
+        family='pneumoviridae',
+        virus='Respiratory%20syncytial%20virus',
