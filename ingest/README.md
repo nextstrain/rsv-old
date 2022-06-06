@@ -1,5 +1,14 @@
 # ingest
 
+## Pull from s3
+
+```
+nextstrain remote download s3://nextstrain-data/files/rsv/sequences.fasta.xz
+nextstrain remote download s3://nextstrain-data/files/rsv/metadata.tsv.gz 
+```
+
+## Pull from ViPR
+
 Feel free to modify
 
 ```
@@ -27,5 +36,3 @@ ls -ltr sequences.fasta metadata.tsv
 grep -c ">" sequences.fasta
 #> 3550
 ```
-
-* [ ] Sanity check, is there supposed to be 3550 sequences? Or does REST have a default maximum.
