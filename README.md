@@ -1,3 +1,5 @@
+# ARCHIVED and superseeded by this (RSV workflow)[https://github.com/nextstrain/rsv-2]
+
 # nextstrain.org/rsv
 
 This is the [Nextstrain](https://nextstrain.org) build for RSV, visible at
