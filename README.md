@@ -1,4 +1,4 @@
-# ARCHIVED and superseeded by this (RSV workflow)[https://github.com/nextstrain/rsv-2]
+# ARCHIVED and superseeded by this [RSV workflow](https://github.com/nextstrain/rsv-2)
 
 # nextstrain.org/rsv
 
